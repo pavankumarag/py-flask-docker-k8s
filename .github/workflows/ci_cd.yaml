@@ -15,5 +15,5 @@ jobs:
         with:
           username: pavankumarag
           password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: pavankumarag/python-flask-docker
+          repository: pavankumarag/python-flask-docker-jun24
           tags: ${{ github.sha }}, latest
