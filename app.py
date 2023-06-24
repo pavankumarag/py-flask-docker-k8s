@@ -10,5 +10,9 @@ def hello():
 def hello1():
     return "<h1>From flask new1</h1>"
 
+@app.route('/new2')
+def hello2():
+    return "<h1>From flask new1</h1>"
+
 if __name__ == "__main__":
     app.run(debug=True)
